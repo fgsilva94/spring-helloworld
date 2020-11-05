@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a curricular unit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./saveUnit.js"></script>
+  </head>
+  <body>
+    Name: <input id="name" type="text" /><br />
+    Grade: <input type="number" id="grade" step="0.1" /><br />
+    Semester: <input type="number" id="semester" /><br />
+    ECTs: <input type="number" id="ects" /><br />
+    <input value="Submit" type="button" onclick="save()" />
+    <p id="message"></p>
+  </body>
+</html>
